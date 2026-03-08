@@ -1,70 +1,83 @@
 # 📄 Doc-Genie: Python Docstring Generator
 
-Doc-Genie is an intelligent tool that automatically generates professional **Python docstrings** from source code.  
-It analyzes Python functions using **AST (Abstract Syntax Tree)** and generates structured documentation in **Google Style** or **NumPy Style**.  
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Framework](https://img.shields.io/badge/Framework-Gradio-orange.svg)
 
-The project also provides an interactive **Gradio-based web interface** where users can paste Python code and instantly generate well-formatted docstrings.
+Doc-Genie is an intelligent tool that automatically generates **Python docstrings** from source code.
 
----
+It analyzes Python functions using **AST (Abstract Syntax Tree)** and produces structured documentation in **Google Style** or **NumPy Style**.
 
-## 🚀 Features
-
-- 🔍 **AST-Based Code Analysis**  
-  Automatically detects Python functions and extracts parameters and return types.
-
-- 📝 **Automatic Docstring Generation**  
-  Generates clear and structured docstrings for functions.
-
-- 🎨 **Multiple Docstring Styles**
-  - Google Style
-  - NumPy Style
-
-- 💻 **Interactive Web Interface**  
-  Built using **Gradio** for easy usage.
-
-- 📥 **Export Options**
-  - Download generated documentation as **TXT**
-  - Download as **PDF**
-
-- 🎨 **Modern UI**
-  - Purple themed interface
-  - Simple and clean layout
+The project includes a **Gradio web interface** where users can paste Python code and instantly generate professional documentation.
 
 ---
 
-## 🛠 Technologies Used
+# 🚀 Live Project
 
-- **Python**
-- **AST (Abstract Syntax Tree)**
-- **Gradio**
-- **ReportLab**
-- **Autopep8 / Black (code formatting)**
+GitHub Repository:
+
+👉 https://github.com/meeraj030-ops/doc-genie
+
+Example:
+
+👉 https://github.com/meeraj030-ops/doc-genie
 
 ---
 
-## 📂 Project Structure
+# ✨ Features
+
+- 🔍 **AST-Based Code Analysis**
+- 🧠 Detects Python functions automatically
+- 📝 Generates professional **docstrings**
+- 📚 Supports **Google & NumPy docstring styles**
+- 🎨 Clean **Gradio UI**
+- 📥 Export documentation as:
+  - TXT
+  - PDF
+- ⚡ Fast and lightweight
+
+---
+
+# 🛠 Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Core programming language |
+| AST | Code structure analysis |
+| Gradio | Web interface |
+| ReportLab | PDF generation |
+| Autopep8 / Black | Code formatting |
+
+---
+
+# 📂 Project Structure
 
 ```
 doc-genie
 │
-├── doc_genie.py          # Main application
-├── requirements.txt      # Required libraries
-├── README.md             # Project documentation
-└── sample_code.py        # Example Python functions
+├── doc_genie.py
+├── requirements.txt
+├── README.md
+└── sample_code.py
 ```
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
-Clone the repository:
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/meeraj030-ops/doc-genie.git
+```
+
+### 2️⃣ Go to Project Folder
+
+```bash
 cd doc-genie
 ```
 
-Install dependencies:
+### 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -72,15 +85,13 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the Application
-
-Run the following command:
+# ▶️ Run the Project
 
 ```bash
 python doc_genie.py
 ```
 
-Then open the browser link shown in the terminal:
+Then open in browser:
 
 ```
 http://127.0.0.1:7860
@@ -88,64 +99,66 @@ http://127.0.0.1:7860
 
 ---
 
-## 💡 Example
+# 💡 Example
 
 ### Input Code
 
 ```python
-def calculate_sum(a: int, b: int):
+def add_numbers(a:int, b:int):
     return a + b
 ```
 
-### Generated Docstring
+### Generated Output
 
 ```python
-def calculate_sum(a: int, b: int):
+def add_numbers(a:int, b:int):
     """
-    Calculate the sum of two numbers.
+    Add two numbers.
 
     Args:
-        a (int): First number.
-        b (int): Second number.
+        a (int): First number
+        b (int): Second number
 
     Returns:
-        int: Sum of the two numbers.
+        int: Sum of the numbers
     """
 ```
 
 ---
 
-## 📊 Future Improvements
+# 📊 Future Improvements
 
-- Support for **class and module documentation**
-- Integration with **AI models for smarter descriptions**
-- Upload **.py files directly**
-- Code quality suggestions
-
----
-
-## 🎓 Use Case
-
-This project is useful for:
-
-- Python developers
-- Students learning documentation
-- Open-source contributors
-- Software development teams
+- 📂 Upload `.py` files
+- 🤖 AI-powered description generation
+- 📊 Code complexity analysis
+- 🧠 Support for classes and modules
+- ☁ Deploy as web application
 
 ---
 
-## 👨‍💻 Author
+# 🎓 Academic Use
 
-**Pranesh S**  
-B.Sc Computer Science Student  
+This project was developed as a **Computer Science Final Year Project** to demonstrate:
 
-Project: *Final Year Academic Project*
+- AST based code analysis
+- Automated documentation
+- Python web interface development
+
+---
+
+# 👨‍💻 Author
+
+** **  
+B.Sc Computer Science Student
 
 ---
 
-## 📜 License
+# 📜 License
 
-This project is released under the **MIT License**.
+This project is licensed under the **MIT License**.
 
 ---
+
+# ⭐ Support
+
+If you like this project, please consider giving it a ⭐ on GitHub!
