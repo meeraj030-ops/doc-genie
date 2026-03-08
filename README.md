@@ -60,7 +60,7 @@ doc-genie
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/doc-genie.git
+git clone https://github.com/meeraj030-ops/doc-genie.git
 cd doc-genie
 ```
 
